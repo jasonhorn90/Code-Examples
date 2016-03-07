@@ -1,17 +1,14 @@
-#include "Bubble_Sort.h"
-#include <iostream>
-#include <vector>
+#include "Remove_Duplicates.h"
+
+
 using namespace std;
-
-
 
 int main()
 {
-	Bubble_Sort* bubble = new Bubble_Sort();	
-	
-	system("pause");
+	Remove_Duplicates* remove = new Remove_Duplicates();
+
+	system("Pause");
 
 	return 0;
-	
-}
 
+}
